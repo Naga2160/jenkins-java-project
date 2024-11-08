@@ -24,6 +24,17 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
+<!adding maven plugins>
+		<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>3.8.1</version> <!-- Use the latest version if needed -->
+    <configuration>
+        <source>17</source> <!-- Java version 1.8 (Java 8) -->
+        <target>17</target> <!-- Compiles to Java 8 bytecode -->
+    </configuration>
+</plugin>
+
 
 	</dependencies>
 	
